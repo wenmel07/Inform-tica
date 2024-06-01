@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to top, rgb(86, 197, 222), rgb(28, 75, 146));
+    text-align: center;
+}
+img{
+    width: 250px;
+}
+div{
+    margin: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+button{
+    background-color:rgb(116 127 128 / 40%);
+    border-radius: 8px;
+    border-width: 0;
+    color: #cecece;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 10;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
